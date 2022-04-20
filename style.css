@@ -3,7 +3,6 @@ header {
   width: 100%;
   padding: 10px 4% 10px;
   position: fixed;
-  top: 0;
   display: flex;
   align-items: center;
 }
@@ -11,7 +10,7 @@ header {
 h1 {
   margin: 0;
   padding: 0;
-  font-size: 30px;
+  font-size: 30pßx;
 }
 
 a {
@@ -22,18 +21,45 @@ a {
 ul {
   list-style: none;
   display: flex;
+  justify-content: end;
 }
 
 li {
+  width: 100%;
   margin: 0 0 0 15px;
+}
+
+.menu:hover {
+  font-size: 1.2rem;
+  color: white;
+  background-color: #333333;
 }
 
 nav {
   margin: 0 0 0 auto;
 }
-.menu-group {
-}
 
 body {
   background-color: #eeeeee;
+}
+
+.img-1 {
+  background-image: url(./image/fukusima-gata.png);
+  /*display: inline-block;*/
+  /*width: 50rem;
+  height: 50rem;*/
+  background-size: cover;
+  height: 55rem;
+  width: 70%;
+  margin-left: 16rem;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.img-2 {
+  background-image: url(./image/profile.PNG);
+  background-size: 50rem;
+  height: 50rem;
+  width: 50rem;
+  margin: 20px;
 }
