@@ -1,4 +1,8 @@
-let mozi = "0101101";
-const toMorseCode = function () {
-  mozi.replaceAll("0", "・");
+/*const toMorseCode = function () {
+  let str = "0101101";
+  str.replaseAll("0", "・");
+};*/
+
+const toMorseCode = function (x) {
+  return x.replaceAll("0", "・");
 };
